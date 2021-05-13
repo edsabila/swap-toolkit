@@ -1,15 +1,12 @@
 {
-  "name": "pancake-toolkit",
+  "name": "swap-toolkit",
   "version": "1.0.0",
-  "description": "Pancake frontend packages",
-  "private": true,
+  "description": "swap frontend packages",
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pancakeswap/pancake-toolkit.git"
-  },
+  "repository": "https://github.com/sabilaed/swap-toolkit.git",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pancakeswap/pancake-toolkit/issues"
@@ -61,5 +58,7 @@
     "ts-jest": "^26.5.1",
     "tslib": "^2.0.3",
     "typescript": "^4.1.5"
-  }
+  },
+  "main": "index.js",
+  "author": "sabilaed <edsabila@gmail.com>"
 }
